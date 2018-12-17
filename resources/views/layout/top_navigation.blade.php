@@ -173,7 +173,7 @@
 
             <div class="container clearfix">
 
-                <div class="menu-title">CodeWeek <span>EU</span></div>
+                <div class="menu-title">Media<span>Literacy</span></div>
 
                 <nav class="one-page-menu eventsm">
 
