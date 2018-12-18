@@ -47,7 +47,7 @@
                             <a href="/guide/" class="btn btn-primary btn-sm">
                                 @lang('event.organize_or_support_events')
                             </a></p>
-                        <p>
+                        {{--<p>
                             <a href="ambassadors?country_iso={{$current_country_iso}}">
                                 @lang('event.or_contact_your') <strong>@lang('event.eu_code_week_ambassadors')</strong>
 
@@ -56,7 +56,7 @@
                                 @endforeach
 
                             </a>
-                        </p>
+                        </p>--}}
 
                     </div>
 

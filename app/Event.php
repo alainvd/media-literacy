@@ -92,7 +92,7 @@ class Event extends Model
         if ($this->picture) {
             return env('AWS_URL') . $this->picture;
         } else {
-            return 'https://s3-eu-west-1.amazonaws.com/codeweek-dev/events/pictures/event_default_picture.png';
+            return env('AWS_URL') . 'event_default_picture.png';
         }
 
 

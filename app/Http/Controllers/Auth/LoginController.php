@@ -58,6 +58,7 @@ class LoginController extends Controller
      */
     public function handleProviderCallback($provider)
     {
+
         $socialUser = Socialite::driver($provider)->user();
 
         $this->loginUser($provider, $socialUser);

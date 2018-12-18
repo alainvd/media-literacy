@@ -6,9 +6,9 @@
 
             <!-- Logo -->
             <div id="logo">
-                <a href="/" class="standard-logo" data-dark-logo="/img/codeweekeu.png"><img src="/img/codeweekeu.png"
+                <a href="/" class="standard-logo" data-dark-logo="/img/mediaLiteracyLogo.png"><img src="/img/mediaLiteracyLogo.png"
                                                                                             alt="CodeWeekES"></a>
-                <a href="/" class="retina-logo" data-dark-logo="/img/codeweekeu.png"><img src="/img/codeweekeu.png"
+                <a href="/" class="retina-logo" data-dark-logo="/img/mediaLiteracyLogo.png"><img src="/img/mediaLiteracyLogo.png"
                                                                                           alt="CodeWeekES"></a>
             </div>
 
@@ -16,11 +16,11 @@
             <nav id="primary-menu">
                 <ul>
                     <li class=""><a href="{{route('events_map')}}">@lang('menu.events')</a></li>
-                    <li class=""><a href="{{route('ambassadors')}}">@lang('menu.ambassadors')</a></li>
+                    {{--<li class=""><a href="{{route('ambassadors')}}">@lang('menu.ambassadors')</a></li>--}}
                     <li><a href="/resources/">@lang('menu.resources')</a></li>
-                    <li><a href="{{route('schools')}}">@lang('menu.schools')</a></li>
+                    {{--<li><a href="{{route('schools')}}">@lang('menu.schools')</a></li>--}}
                     <li><a href="/about/">@lang('menu.about')</a></li>
-                    <li><a href="http://blog.codeweek.eu/">@lang('menu.news')</a></li>
+                    <li><a href="https://ec.europa.eu/digital-single-market/en/news/74752/74752">@lang('menu.news')</a></li>
                 </ul>
 
             </nav>
@@ -34,7 +34,7 @@
                             <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu twitter-menu" role="menu" style="width: 400px;height: 820px;overflow: auto;">
-                            <a class="twitter-timeline" href="https://twitter.com/CodeWeekEU" data-width="400" data-height="300" data-chrome="noscrollbar" data-link-color="#E95F28" data-tweet-limit="4"></a>
+                            <a class="twitter-timeline" href="https://twitter.com/EU_MediaLit" data-width="400" data-height="300" data-chrome="noscrollbar" data-link-color="#E95F28" data-tweet-limit="4"></a>
                             <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                         </ul>
                     </li>
@@ -43,7 +43,7 @@
 
 
             <!-- Language Menu -->
-            <div id="top-language">
+            {{--<div id="top-language">
                 <ul class="nav navbar navbar-right nobottommargin">
                     <li class="nav-item dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -63,7 +63,7 @@
                         </ul>
                     </li>
                 </ul>
-            </div>
+            </div>--}}
 
             <!-- User Menu -->
             <div id="top-login">
@@ -165,7 +165,6 @@
     </div>
 </header>
 
-@if (Route::getCurrentRoute() && Route::getCurrentRoute()->uri() != 'home'  && Route::getCurrentRoute()->uri() != '/')
 
     <div id="page-menu">
 
@@ -221,7 +220,7 @@
 
     </div>
 
-@endif
+
 
 
 

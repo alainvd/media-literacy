@@ -15,16 +15,11 @@
 
     <link href="{{asset('css/cookiecuttr.css')}}" media="screen" rel="stylesheet" />
 
-        <link rel="stylesheet" href="{{asset('css/ext/cache.css')}}" type="text/css" />
+    <link rel="stylesheet" href="{{asset('css/ext/cache.css')}}" type="text/css" />
 
+    <link rel="stylesheet" href="{{asset('css/ext/style.css')}}" type="text/css" />
+    <link rel="stylesheet" href="{{asset('css/app.css')}}" type="text/css" />
 
-    <!-- Theme stylesheets -->
-    @if (Route::getCurrentRoute() && Route::getCurrentRoute()->uri() != 'home' && Route::getCurrentRoute()->uri() != '/')
-        <link rel="stylesheet" href="{{asset('css/ext/style.css')}}" type="text/css" />
-        <link rel="stylesheet" href="{{asset('css/app.css')}}" type="text/css" />
-    @else
-        <link rel="stylesheet" href="{{asset('css/ext/home.css')}}" type="text/css" />
-    @endif
     <link rel="stylesheet" href="{{asset('css/ext/dark.css')}}" type="text/css" />
     <link rel="stylesheet" href="{{asset('css/font-icons.css')}}" type="text/css" />
 
